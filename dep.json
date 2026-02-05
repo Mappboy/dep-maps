@@ -308,8 +308,8 @@
           "type": "wms",
           "name": "Sentinel-2 Cloudless Mosaic (Quarterly) - CDSE (2020-2025)",
           "description": "Copernicus Sentinel-2 L2A - Quarterly Cloudless Mosaics (2020-2025). WMS is proxied to correctly set time dimension and enable CORS.",
-          "url": "https://func-api-vaddfirveve2m.azurewebsites.net/api/wms?service=WMS",
-          "layers": "CLOUDLESS-MOSAIC-TRUE-COLOR",
+          "url": "https://hyhpbfk1lf.execute-api.us-west-2.amazonaws.com/wms?service=WMS",
+          "layers": "s2-cloudless-mosaic",
           "parameters": {
             "format": "image/png",
             "style": "default",
